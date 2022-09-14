@@ -8,7 +8,7 @@
 </div>
         </div>
 
-        <!-- <div class="panel">
+        <!-- ]<div class="panel">
           <h4 class="title">About</h4>
           <a
             rel="noopener noreferrer"
@@ -28,33 +28,27 @@
 
         </div>
 
+      -->
         <div class="panel">
           <h4 class="title">Explore</h4>
-          <a href="/#tracks">Tracks</a> -->
-          <!-- <a href="/#speakers">Speakers</a> 
-          <a href="/#sponsors">Sponsors</a>
-          <a href="/events">Meetups</a>
-          <a href="/swag">Swag Page</a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://dev.to/hackthisfall"
-            >Dev.to Page</a
-          >
-        </div>
- -->
+          <a href="/events">Events</a>
+           <a href="/joining">Joining</a> 
+          <a href="/registration">Registration</a>
+          <a href="/teams">Teams</a>
+                  </div>
+ 
         <div class="panel">
           <h4 class="title">Find Us Online</h4>
          <!--  <img class="img" src="~/assets/logo2.png" />
-          --> <div class="socialLinks" id="socailLinks">
+ -->          <div class="socialLinks" id="socailLinks">
             <a
               class="smooth-transition"
               rel="noopener noreferrer"
               target="_blank"
               href="https://discord.com/invite/8nYw3P5Js8"
             >
-              <img src="~/assets/Socials/discord.svg" alt="discord" />
-            </a>
+            <img src="~/assets/Socials/discord.svg" alt="discord" />
+           </a>
             <a
               class="smooth-transition"
               rel="noopener noreferrer"
@@ -93,7 +87,7 @@
               class="smooth-transition"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/code-hives-0830a9250"
+              href="https://www.linkedin.com/in/code-hives-gecp-0830a9250/"
             >
               <img src="~/assets/Socials/linkedin.svg" alt="linkedin" />
             </a>

@@ -4,7 +4,7 @@
       <section class="content-section">
         <div class="contents">
           <div class="topSection">
-            <img src="~/assets/HTF1/HTF-Logo.png" width="600" />
+            <img src="~/assets/logo1.png" width="600" />
             <h3>
               BUILD AND SOLVE
             </h3>
@@ -82,7 +82,7 @@
             </div>
             <a
               target="_blank"
-              href="https://hackthisfall.tech/"
+              href="https://codehives.gecpatan.ac.in/"
               class="cta-button"
             >
               SEASON 2

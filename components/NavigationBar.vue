@@ -7,6 +7,9 @@
           <NuxtLink to="/">
           </NuxtLink>
            <img class="headerImage" src="~/assets/logo1.png" />
+           <span class="sub_title">
+            Code Hives
+           </span>
          </div>
         <!-- Menu area -->
         <div class="menu-area">
@@ -48,8 +51,8 @@ export default {
       navlinks: [ 
         { link: "/", text: "home" },
       { link: "/#about", text: "about" },
-         { link: "/events", text: "Events" },
-        // { link: "/prizes", text: "prizes" },
+         { link: "/events", text: "Events" }, 
+         { link: "/joining", text: "joining club",newTab: true },
         /* { link: "/#speakers", text: "speakers" },
        */ // { link: "/#sponsors", text: "sponsors" },
         // { link: "/schedule", text: "Schedule", newTab: true },
@@ -67,6 +70,11 @@ export default {
 </script>
 
 <style lang="scss">
+  .sub_title{
+    padding: auto;
+    align-items: center;
+    display: inline-block;
+  }
 .navigation-bar {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: rgba(157, 157, 157, 0.26) 0px 0px 40px;
@@ -120,7 +128,7 @@ export default {
     .branding {
       padding-top: 0.25rem;
       .headerImage {
-        height: 2.5rem;
+        height: 5rem;
         margin-bottom: -0.1rem;
       }
     }

@@ -1,20 +1,12 @@
 <template>
   <div class="contents">
     <div class="events-wrapper">
-      <img
-        src="https://raw.githubusercontent.com/hack-this-fall/Media-Kit/main/Logo/HTF-White.png"
-        alt="HTF Logo"
-      />
+      <img src="~/assets/logo1.png" width="600" />
       <p class="details">
         <span style="color: #d74f4b; font-size: 25px; font-weight: 600"
-          >In-Person City Meetup Series 2022</span
+          >In-Person  Meetup Series 2022</span
         >
       </p>
-      <a
-        class="cta-button"
-        href="#"
-        >See You in 2023</a
-      >
       <br />
       <div class="cards-grid">
         <div v-for="(event, index) in events" :key="index" class="card">
@@ -40,89 +32,32 @@
           </div>
         </div>
       </div>
-      <EventsPageSponsorSection />
+      
     </div>
   </div>
 </template>
 
 <script>
 import Container from "~/components/Container";
-import EventsPageSponsorSection from "~/components/EventsPageSponsorSection.vue";
 
 export default {
   components: {
-    Container,
-    EventsPageSponsorSection
+    Container
   },
   data() {
     return {
       events: [
         {
-          name: "Jaipur City Meetup",
+          name: "Inaugrating To Code Hives",
           details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 17,500</span> awarded to the person whose page stands out the most for all the right reasons.",
-          image: require("~/assets/Meetup/jaipur.png"),
-          venue: "Cowocoli, Jaipur",
-          date: "4th April 2022",
-          time: "6:00 PM to 8:00 PM",
-          url: "https://g.page/Cowocoli-Coworkingspace?share",
+            "Once sun was setting but git made the day rise like it was never set.<br />We Code Hives setting all our Events and will introduce our enthu. <br />Creators of club, on 15th of September, 2022 Thursday, 11:00 am onwards @Seminar Hall Computer Dept.We Welcome you for getting started with your life's best development in field which can break through of all your limits.",
+          image: require("~/assets/event/event1.jpg"),
+          venue: "Seminar Hall, Cse Dept, GecPatan",
+          date: "15th Sept. 2022",
+          time: "11:00 AM to 12:30 PM",
           active: true
         },
-        {
-          name: "Mumbai City Meetup",
-          details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 7,500</span> awarded to the person who used the custom content feature in the most creative and unique ways.",
-          image: require("~/assets/Meetup/mumbai.png"),
-          venue: "74Technopark Hub",
-          date: "16th April 2022",
-          time: "4:00 PM to 9:00 PM",
-          active: true,
-          url: "https://goo.gl/maps/D7VU6guZ8eBu3rJy5"
-        },
-        {
-          name: "Pune City Meetup",
-          details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 7,500</span> awarded to the page that showcases Indian culture, art, traditions, the festivals and its people the best.",
-          image: require("~/assets/Meetup/pune.png"),
-          venue: "Redbrick Offices",
-          date: "17th April 2022",
-          time: "11:30 AM to 4:30 PM",
-          active: true,
-          url: "https://goo.gl/maps/TjJ4piny2MhNd9a5A"
-        },
-        {
-          name: "Delhi City Meetup",
-          details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 7,500</span> awarded to the person with the best page about their pet(s)",
-          image: require("~/assets/Meetup/delhi.png"),
-          venue: "The Circle Work",
-          date: "28th May 2022",
-          time: "11:00 AM to 5:00 PM",
-          active: true,
-          url: "https://goo.gl/maps/MtiVc153cHp7R7Bw6"
-        },
-        {
-          name: "Bengaluru City Meetup",
-          details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 7,500</span> awarded to the person with the most nerdy page. We expect the content on this to be super techy!",
-          image: require("~/assets/Meetup/bengaluru.png"),
-          venue: "91Springboard, J.P. Nagar",
-          date: "11th June 2022",
-          time: "11:00 AM to 5:00 PM",
-          active: true,
-          url: "https://goo.gl/maps/AV6NrfPcqwW6rct27"
-        },
-        {
-          name: "Ahmedabad City Meetup",
-          details:
-            "<span style='color: rgba(233, 83, 34, 1)'>INR 7,500</span> awarded to the person with the most nerdy page. We expect the content on this to be super techy!",
-          image: require("~/assets/Meetup/ahmedabad.png"),
-          venue: "DevX, Ahmedabad",
-          date: "30th July 2022",
-          time: "3:00 PM to 8:00 PM",
-          active: true,
-          url: "https://goo.gl/maps/PWhjTUtRPBqWQSNr6"
-        }
+        
       ]
     };
   }

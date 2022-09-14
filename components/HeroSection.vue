@@ -8,11 +8,14 @@
           </div>
           <div class="about">
          <img class="logo" src="~/assets/logo1.png" />
-             <!-- <span class="date">
-              We're back with Season 3 <br />
-              3rd - 5th February 2023
+         <br />
+             <span class="date">
+              <br />
+              <br />
+             LET'S <strike class='strike'>GET</strike><sup>GIT</sup> TOGETHER  <br />
+             
             </span>
-             --><div class="cta-buttons">
+            <div class="cta-buttons">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,6 +52,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .strike
+  {
+    color: red;
+  }
 .content-section {
   display: flex;
   flex-direction: column;

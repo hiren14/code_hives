@@ -39,7 +39,7 @@
             </div> -->
           </div>
           <div class="img hide-small">
-            <img src="~/assets/HTF2/about.svg" />
+            <img src="~/assets/logo1.png" />
           </div>
         </div>
       </section>

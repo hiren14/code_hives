@@ -12,6 +12,7 @@
               </div>
             </a>
             <h4 class="title">{{ teamMember.name }}</h4>
+            <h6 class="title">{{teamMember.pos}}</h6>
           </div>
         </div>
       </div>
@@ -35,66 +36,96 @@ export default {
           
             name: "Sachin Makwana",
             url: "https://www.linkedin.com/in/sachin-makwana-ab556919",
-            picture: require("~/assets/Team/sachin.jpg"),
+            pos: "Mentor",
+            picture: require("~/assets/Team/menter.jpg"),
+            rotation: 75,
+          },
+          {
+          name: "Jay Patel",
+            url: "https://in.linkedin.com/in/jay-patel-112569114",
+            pos: "Mentor",
+            picture: require("~/assets/Team/menter.jpg"),
             rotation: 75,
           },
           {
           name: "Tarif Hingolja",
           url: "https://www.linkedin.com/in/tarif-hingolja-93ab67158",
+          pos:'Co-Ordinator',
           picture: require("~/assets/Team/tarif.jpg"),
           rotation: 205,
         },
         {
-          name: "Lalani Hiren Nandlal",
-          url: "https://www.linkedin.com/in/hiren-lalani-8a6ba41b9/",
-          picture: require("~/assets/Team/hiren.jpg"),
-          rotation: 75,
-        },
-        {
           name: "Het Chauhan",
           url: "https://www.linkedin.com/in/het-chauhan-3ab838233/",
+          pos:'Co-ordinator',
           picture: require("~/assets/Team/het.jpg"),
           rotation: 150,
         },
         {
-          name: "krish patel",
+          name: "Krish Patel",
           url: "https://www.linkedin.com/in/krish-patel-5780bb128/",
+          pos:'Co-Ordinator',
           picture: require("~/assets/Team/krish.jpg"),
           rotation: 150,
         },
         {
           name: "Dhrupal Prajapati",
           url: "https://www.linkedin.com/in/dhrupal-prajapati-660396169",
+          pos:'Co-Ordinator',
           picture: require("~/assets/Team/dhrupal.jpg"),
           rotation: 150,
         },
         
-        
         {
-          name: "Preet Parimal Shah",
-          url: "https://www.linkedin.com/in/preet-shah-25b3461b9",
-          picture: require("~/assets/Team/preet.jpg"),
-          rotation: 150,
-        },
-        {
-          name: "Patel Ashvi Mahendrabhai",
-          url: "https://www.linkedin.com/in/ashvi-patel-170556245",
-          picture: require("~/assets/Team/ashvi.jpg"),
+          name: "Hiren Lalani",
+          url: "https://www.linkedin.com/in/hiren-lalani-8a6ba41b9/",
+          pos:'Tech Lead',
+          picture: require("~/assets/Team/hiren.jpg"),
           rotation: 75,
         },
         {
-          name: "PATEL PRINCE S.",
+        name: "Mihir Prajapati",
+        url: "https://www.linkedin.com/in/mihir-prajapati-692142246",
+        pos:'Tech Lead',
+        picture: require("~/assets/Team/mhir.jpg"),
+        rotation: 120,
+      },
+      {
+        name: "Ravi Singh Patel",
+        url: "https://www.linkedin.com/in/ravi-patel2303/",
+        pos:'Tech Lead',
+        picture: require("~/assets/Team/ravi.jpg"),
+        rotation: 120,
+      },
+      {
+        name: "Nimmi Mishra",
+        url: "https://www.linkedin.com/in/mishra-chotankumari-313b1222a/",
+        pos:'Tech Lead',
+        picture: require("~/assets/Team/nimi.jpg"),
+        rotation: 120,
+      },
+      {
+        name: "Ashvi Patel",
+        url: "https://www.linkedin.com/in/ashvi-patel-170556245",
+        pos:'Student Section Lead',
+        picture: require("~/assets/Team/ashvi.jpg"),
+        rotation: 75,
+      },
+      {
+        name: "Preet Shah",
+        url: "https://www.linkedin.com/in/preet-shah-25b3461b9",
+        pos:'Management Lead',
+        picture: require("~/assets/Team/preet.jpg"),
+        rotation: 150,
+      },
+      
+        {
+          name: "PRINCE PATEL",
           url: "https://www.linkedin.com/in/prince-patel-133452205",
+          pos:'Social Media Manager',
           picture: require("~/assets/Team/prince.jpeg"),
           rotation: 65,
         },
-        {
-          name: "Prajapati Mihir ManojKunar",
-          url: "https://www.linkedin.com/in/mihir-prajapati-692142246",
-          picture: require("~/assets/Team/mhir.jpg"),
-          rotation: 120,
-        },
-
       ],
     };
   },

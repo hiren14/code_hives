@@ -34,7 +34,7 @@
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
     /> -->
-     <ScheduleSection /> 
+<!--      <ScheduleSection />  -->
      <!-- <SpeakersSection
       data-aos="fade-right"
       data-aos-delay="200"
@@ -48,19 +48,20 @@
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
     /> -->
-    <TestimonialsSection
+    <!-- <TestimonialsSection
       data-aos="fade-right"
       data-aos-delay="200"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
-    />
+      /> -->
+      <EventsSection />
     <Team2021Section
       data-aos="fade-right"
       data-aos-delay="200"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
     />
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewrWz8hVJxCMNfxxmbi60ue6QPRcKZFJN8EVtEwRoRcZrWww/viewform?embedded=true" width="700" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  <FAQSection
+    <iframe class="res" src="https://docs.google.com/forms/d/e/1FAIpQLSewrWz8hVJxCMNfxxmbi60ue6QPRcKZFJN8EVtEwRoRcZrWww/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  <FAQSection
       data-aos="fade-left"
       data-aos-delay="200"
       data-aos-duration="800"
@@ -90,6 +91,7 @@ import TestimonialsSection from "~/components/TestimonialsSection";
 import FAQSection from "~/components/FAQSection";
 import FooterSection from "~/components/FooterSection";
 import aosMixin from "~/mixins/aos";
+import EventsSection from "../components/EventsSection.vue";
 
 export default {
   components: {
@@ -106,7 +108,8 @@ export default {
     FAQSection,
     ScrollTopArrow,
     FooterSection,
-  },
+    EventsSection
+},
   mixins: [aosMixin],
 };
 </script>
@@ -121,7 +124,9 @@ export default {
   /* align-items: center; */
   /* text-align: center; */
 }
-
+.res{
+ width: 100%;
+}
  @media screen and (max-width: 992px) {
 iframe{
  align-items: center;

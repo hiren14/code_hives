@@ -46,7 +46,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://hirenlalani.files.wordpress.com/2022/09/img_20220912_234820_309.png"
+        content: "https://codehives.gecpatan.ac.in/_nuxt/img/logo1.e8c1f3f.png"
       },
       {
         name: "twitter:card",
