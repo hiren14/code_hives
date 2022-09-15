@@ -33,6 +33,19 @@
                 <img src="~/assets/HTF2/discord.svg" />JOIN DISCORD
               </a>
             </div>
+            <div class="cta-buttons">
+            
+              
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/joining"
+                class="cta-button smooth-transition discord"
+              >
+              <img src="~/assets/HTF2/clickme.png" />JOINING THE CLUB 
+            
+            </a>
+            </div>
           </div>
         </div>
       </section>
