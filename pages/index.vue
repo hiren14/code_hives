@@ -81,13 +81,8 @@ import NavigationBar from "~/components/NavigationBar";
 import HeroSection from "~/components/HeroSection";
 import AboutSection from "~/components/AboutSection";
 import GlimpseSection from "~/components/GlimpseSection";
-import TracksSection from "~/components/TracksSection";
-import PrizesSection from "~/components/PrizesSection";
 import ScheduleSection from "~/components/ScheduleSection";
-import SpeakersSection from "~/components/SpeakersSection";
 import ScrollTopArrow from "~/components/ScrollTopArrow";
-import SponsorsSection from "~/components/SponsorsSection";
-import TestimonialsSection from "~/components/TestimonialsSection";
 import FAQSection from "~/components/FAQSection";
 import FooterSection from "~/components/FooterSection";
 import aosMixin from "~/mixins/aos";
@@ -99,11 +94,6 @@ export default {
     HeroSection,
     AboutSection,
     GlimpseSection,
-    TracksSection,
-    PrizesSection,
-    SpeakersSection,
-    SponsorsSection,
-    TestimonialsSection,
     ScheduleSection,
     FAQSection,
     ScrollTopArrow,

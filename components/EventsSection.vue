@@ -13,7 +13,7 @@
           <div class="card-side smooth-transition">
             <img :src="event.image" alt="cityImage" />
             <div class="texts">
-              <h4 class="eventName" v-html="event.name">{{}}</h4>
+              <h4 class="eventName" v-html="event.name">{{event.name}}</h4>
               <p class="event">
                 Date: {{ event.date }} <br />
                 Time: {{ event.time }} <br />

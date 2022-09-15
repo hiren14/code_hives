@@ -9,6 +9,9 @@
     <hr />
 
     <iframe class="res" src="https://docs.google.com/forms/d/e/1FAIpQLSeFT2Oe9xSS5ehXHoneO56mSbc0_IShCBIaTTkTdEvLZACvTw/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<ScrollTopVue />
+    <ScrollTopArrowVue />
+    
   </div>
     </div>
   </template>
@@ -16,11 +19,14 @@
   <script>
   import NavigationBar from "~/components/NavigationBar";
   import FooterSection from "~/components/FooterSection";
-  
-  export default {
+  import ScrollTopArrowVue from "../components/ScrollTopArrow.vue";
+  import ScrollTopVue from "../components/ScrollTop.vue";
+    export default {
     components: {
       NavigationBar,
       FooterSection,
+      ScrollTopArrowVue,
+      ScrollTopVue
     },
   };
   </script>

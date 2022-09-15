@@ -39,7 +39,6 @@
                 with other hackers in a meaningful way.
                 <br />
                 <br />
-                <img src="~/assets/HTF1/blogImage.png" width="100%" />
                 <br />
                 <br />
                 While we are talking about hackathons and especially about Hack
