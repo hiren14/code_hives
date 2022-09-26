@@ -34,6 +34,8 @@ import ScrollTopArrowVue from "../components/ScrollTopArrow.vue";
   <style>
   .res{
     position:absolute;
+    height: 100%;
+    width: 100%;
   }
   
   .container {
