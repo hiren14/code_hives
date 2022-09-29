@@ -8,13 +8,13 @@
 
 <script>
 import NavigationBar from "~/components/NavigationBar";
-import EventsSection from "~/components/EventsSection";
+import PatEventsSection from "~/components/PastEventsSection";
 import FooterSection from "~/components/FooterSection";
 
 export default {
   components: {
     NavigationBar,
-    EventsSection,
+    PastEventsSection,
     FooterSection,
   },
 };

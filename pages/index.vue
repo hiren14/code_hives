@@ -54,6 +54,7 @@
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       /> -->
+      <UpComming />
       <EventsSection />
     <Team2021Section
       data-aos="fade-right"
@@ -86,7 +87,8 @@ import ScrollTopArrow from "~/components/ScrollTopArrow";
 import FAQSection from "~/components/FAQSection";
 import FooterSection from "~/components/FooterSection";
 import aosMixin from "~/mixins/aos";
-import EventsSection from "../components/EventsSection.vue";
+import EventsSection from "../components/PastEventsSection.vue";
+import UpComming from "../components/UpCommingEvents.vue";
 
 export default {
   components: {
@@ -98,6 +100,7 @@ export default {
     FAQSection,
     ScrollTopArrow,
     FooterSection,
+    UpComming,
     EventsSection
 },
   mixins: [aosMixin],
