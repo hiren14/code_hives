@@ -84,6 +84,13 @@ export default {
           rotation: 75,
         },
         {
+        name: "Mobin Desai",
+        url: "https://www.linkedin.com/in/mobin-desai-4a5b3b22b/",
+        pos:'Tech Lead',
+        picture: require("~/assets/Team/mobin.jpg"),
+        rotation: 95,
+      },
+      {
         name: "Mihir Prajapati",
         url: "https://www.linkedin.com/in/mihir-prajapati-692142246",
         pos:'Tech Lead',
