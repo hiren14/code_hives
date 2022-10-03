@@ -54,7 +54,7 @@
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       /> -->
-      <UpComming />
+<!--      <UpComming /> -->
       <EventsSection />
     <Team2021Section
       data-aos="fade-right"

@@ -51,9 +51,9 @@ export default {
       navlinks: [ 
         { link: "/", text: "home" },
       { link: "/#about", text: "about" },
-      { link: "/#up", text: "UpComming Events" }, 
+      //{ link: "/#up", text: "UpComming Events" }, 
          { link: "/#past", text: "Past Events"},
-         { link: "/registration", text: "registration" },
+   //      { link: "/registration", text: "registration" },
        // { link: "/#sponsors", text: "sponsors" },
         // { link: "/schedule", text: "Schedule", newTab: true },
         { link: "/team", text: "team", newTab: true },

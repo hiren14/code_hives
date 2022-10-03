@@ -15,7 +15,7 @@
              LET'S <strike class='strike'>GET</strike><sup>GIT</sup> TOGETHER  <br />
              
             </span>
-            <div class="cta-buttons">
+         <!--   <div class="cta-buttons">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -23,7 +23,9 @@
                 class="cta-button smooth-transition register"
               >
                 <img src="~/assets/HTF2/clickme.png" />REGISTER FOR EVENT
-              </a>
+              </a>-->
+              <div class="cta-buttons">
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,6 +35,7 @@
                 <img src="~/assets/HTF2/discord.svg" />JOIN DISCORD
               </a>
             </div>
+            
             <div class="cta-buttons">
             
               
@@ -42,6 +45,7 @@
                 href="/joining"
                 class="cta-button smooth-transition discord"
               >
+              
               <img src="~/assets/HTF2/clickme.png" />JOINING THE CLUB 
             
             </a>
