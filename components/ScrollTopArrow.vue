@@ -18,11 +18,12 @@ export default {
 <style>
 .btn {
   display: flex;
+  justify-content: center;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #d5d6bfb0;
   width: 3rem;
   height: 3rem;
-  padding: 0.8rem;
+  padding: 0.9rem;
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
