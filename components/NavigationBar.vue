@@ -76,6 +76,12 @@ export default {
     display: inline-block;
   }
 .navigation-bar {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: rgba(157, 157, 157, 0.26) 0px 0px 40px;
   z-index: 500;
@@ -228,8 +234,8 @@ export default {
 
 .bm-burger-button {
   position: sticky;
-  width: 30px;
-  height: 25px;
+  width: 27px;
+  height: 22px;
   left: 36px;
   margin-top: 0.6rem;
   cursor: pointer;
