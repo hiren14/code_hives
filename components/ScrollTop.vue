@@ -29,10 +29,16 @@ export default {
 
 <style scoped>
 .bottom-right {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   z-index: 10000;
   position: fixed;
-  bottom: 2rem;
-  right: 4rem;
+  bottom: 1.4rem;
+  right: 1.4rem;
   cursor: pointer;
 }
 </style>
