@@ -71,9 +71,10 @@ export default {
 
 <style lang="scss">
   .sub_title{
+    display: flex;
+    align-items: center;
     padding: auto;
     align-items: center;
-    display: inline-block;
   }
 .navigation-bar {
   -webkit-touch-callout: none;
@@ -132,6 +133,7 @@ export default {
     }
 
     .branding {
+      display: flex;
       padding-top: 0.25rem;
       .headerImage {
         height: 5rem;
