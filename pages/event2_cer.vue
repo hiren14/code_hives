@@ -1,3 +1,4 @@
+
 <template>
     <div class="container">
       
@@ -7,10 +8,8 @@
         <br />
         <br />
     <hr />
-
-
-    <iframe  class='res' src="https://docs.google.com/forms/d/e/1FAIpQLSe2sjlkt2S0RePZoGqpGYJ9ry69dwPnZaVcePxKQ0vvanevKA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-<ScrollTopVue />
+    <iframe class="res" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVRuxxV883I6dAj0nFExDjoOsCMoca23CZ9l6RUsKHEUnCeBuhjWCkzu1uzmNZjGTPorwPzCcl5qMO/pubhtml?gid=1840084557&single=true&amp;headers=false"></iframe>
+    <ScrollTopVue />
     <ScrollTopArrowVue />
     
   </div>
@@ -20,14 +19,14 @@
   <script>
   import NavigationBar from "~/components/NavigationBar";
   import FooterSection from "~/components/FooterSection";
-  import ScrollTopArrowVue from "../components/ScrollTopArrow.vue";
   import ScrollTopVue from "../components/ScrollTop.vue";
-    export default {
+import ScrollTopArrowVue from "../components/ScrollTopArrow.vue";
+  export default {
     components: {
       NavigationBar,
       FooterSection,
+      ScrollTopVue,
       ScrollTopArrowVue,
-      ScrollTopVue
     },
   };
   </script>
@@ -35,6 +34,8 @@
   <style>
   .res{
     position:absolute;
+    height: 100%;
+    width: 100%;
   }
   
   .container {
