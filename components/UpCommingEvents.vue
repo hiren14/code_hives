@@ -60,7 +60,7 @@ export default {
           image: require("~/assets/event/event_4.png"),
           venue: "Seminar Hall, Civil Dept, GecPatan",
           date: "28th-29th Nov. 2022",
-          time: "10:30 AM to 2:00 PM",
+          time: "11:30 AM to 4:00 PM",
           url: "/registration",
           active: true
         },
