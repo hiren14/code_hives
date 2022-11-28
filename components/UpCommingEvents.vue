@@ -14,7 +14,7 @@
         <div v-for="(event, index) in events" :key="index" class="card">
           <div class="card-side smooth-transition">
             <a :href="event.url" target="_blank">
-            <img :src="event.image" alt="cityImage" />
+            <img :src="event.image" alt="Dive Into Docker poster" />
             </a>
             <div class="texts">
               <h4 class="eventName" v-html="event.name">{{event.name}}</h4>
