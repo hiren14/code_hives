@@ -1,23 +1,18 @@
+
 <template>
     <div class="container">
       
       <NavigationBar />
-    <!-- <div class="form"> -->
+    <div class="form">
         <br />
         <br />
         <br />
+    <hr />
 
-    <hr /><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEmN62h3zmX1OeZKwWVKIOtBzdd9RTDE7wrCasV2QXFPhMpw/viewform?embedded=true" width="100%" height="685" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-<ScrollTopVue />
-    <ScrollTopArrowVue />
-
-
-   
-    <ScrollTopVue />
     <ScrollTopArrowVue />
     
   </div>
-  
+    </div>
   </template>
   
   <script>
@@ -36,7 +31,11 @@ import ScrollTopArrowVue from "../components/ScrollTopArrow.vue";
   </script>
   
   <style>
-  
+  .res{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+  }
   
   .container {
     display: flex;
