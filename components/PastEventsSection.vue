@@ -53,6 +53,17 @@ export default {
     return {
       events: [
         {
+          name: "Dive Into Docker",
+          details:
+            "We're a group of passionate developers who are here to help you grow your programming skills.<br /><br />Join us for a workshop Glance At Web Designing about HTML and CSS by CodeHives Club.<br />This workshop is on Friday, Sept 30th from 10:30am - 2:00 pm (ET) and will cover the fundamentals of CSS and HTML with an emphasis on how to use each to make your websites more functional.<br />Learn how to create effective layouts, design images as backgrounds, add animation to your content and much more!",
+          image: require("~/assets/event/event_4.png"),
+          venue: "Seminar Hall, Civil Dept, GecPatan",
+          date: "28th-29th Nov. 2022",
+          time: "11:30 AM to 4:00 PM",
+          url: "/event4_inst",
+          active: true
+        },
+        {
           name: "Inaugrating To Code Hives",
           details:
             "Once sun was setting but git made the day rise like it was never set.<br />We Code Hives setting all our Events and will introduce our enthu. <br />Creators of club, on 15th of September, 2022 Thursday, 11:00 am onwards @Seminar Hall Computer Dept.We Welcome you for getting started with your life's best development in field which can break through of all your limits.",
