@@ -127,7 +127,7 @@
           name: "Yashvi Viradiya",
           url: "https://www.linkedin.com/in/yashvi-viradiya-53bb29254",
           pos:'Tech Member',
-          picture: require("~/assets/Team/Team2k22/yashvi.jpg"),
+          picture: require("~/assets/Team/Team2k22/Yashvi.jpg"),
           rotation: 120,
         },
        // media 
