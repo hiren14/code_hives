@@ -169,13 +169,7 @@
             rotation: 65,
           },
           // Docu 
-          {
-            name: "Darji Nehaben",
-            url: "https://www.linkedin.com/in/neha-darji-590b92202",
-            pos:'Documantaion Member',
-            picture: require("~/assets/Team/Team2k22/Neha.jpg"),
-            rotation: 65,
-          },
+         
         ],
       };
     },
