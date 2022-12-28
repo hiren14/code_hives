@@ -47,42 +47,34 @@ export default {
             picture: require("~/assets/Team/menter.jpg"),
             rotation: 75,
           },
-          
+          {
+          name: "Tarif Hingolja",
+          url: "https://www.linkedin.com/in/tarif-hingolja-93ab67158",
+          pos:'Co-Ordinator',
+          picture: require("~/assets/Team/tarif.jpg"),
+          rotation: 205,
+        },
         {
           name: "Het Chauhan",
           url: "https://www.linkedin.com/in/het-chauhan-3ab838233/",
-          pos:'Director',
+          pos:'Co-ordinator',
           picture: require("~/assets/Team/het.jpg"),
           rotation: 150,
         },
         {
           name: "Krish Patel",
           url: "https://www.linkedin.com/in/krish-patel-5780bb128/",
-          pos:'Director',
+          pos:'Co-Ordinator',
           picture: require("~/assets/Team/krish.jpg"),
           rotation: 150,
         },
         {
           name: "Dhrupal Prajapati",
           url: "https://www.linkedin.com/in/dhrupal-prajapati-660396169",
-          pos:'Director',
+          pos:'Co-Ordinator',
           picture: require("~/assets/Team/dhrupal.jpg"),
           rotation: 150,
         },
-        {
-        name: "Ashvi Patel",
-        url: "https://www.linkedin.com/in/ashvi-patel-170556245",
-        pos:'Co-Ordinator',
-        picture: require("~/assets/Team/ashvi.jpg"),
-        rotation: 75,
-      },
-      {
-        name: "Preet Shah",
-        url: "https://www.linkedin.com/in/preet-shah-25b3461b9",
-        pos:'Assitant Co-Ordinator',
-        picture: require("~/assets/Team/preet.jpg"),
-        rotation: 150,
-      },
         
         {
           name: "Hiren Lalani",
@@ -92,30 +84,47 @@ export default {
           rotation: 75,
         },
         {
-        name: "Ravi Singh Patel",
-        url: "https://www.linkedin.com/in/ravi-patel2303/",
-        pos:'Tech Lead',
-        picture: require("~/assets/Team/ravi.jpg"),
-        rotation: 120,
-      },
-        {
         name: "Mobin Desai",
         url: "https://www.linkedin.com/in/mobin-desai-4a5b3b22b/",
-        pos:'Media Production',
+        pos:'Tech Lead',
         picture: require("~/assets/Team/mobin.jpg"),
         rotation: 95,
       },
-      
-      
       {
-        name: "Nimmi Mishra",
-        url: "https://www.linkedin.com/in/mishra-chotankumari-313b1222a/",
-        pos:'Documentation Lead',
-        picture: require("~/assets/Team/nimi.jpg"),
+        name: "Mihir Prajapati",
+        url: "https://www.linkedin.com/in/mihir-prajapati-692142246",
+        pos:'Tech Lead',
+        picture: require("~/assets/Team/mhir.jpg"),
         rotation: 120,
       },
-      
-      
+      // {
+      //   name: "Ravi Singh Patel",
+      //   url: "https://www.linkedin.com/in/ravi-patel2303/",
+      //   pos:'Tech Lead',
+      //   picture: require("~/assets/Team/ravi.jpg"),
+      //   rotation: 120,
+      // },
+      // {
+      //   name: "Nimmi Mishra",
+      //   url: "https://www.linkedin.com/in/mishra-chotankumari-313b1222a/",
+      //   pos:'Tech Lead',
+      //   picture: require("~/assets/Team/nimi.jpg"),
+      //   rotation: 120,
+      // },
+      {
+        name: "Ashvi Patel",
+        url: "https://www.linkedin.com/in/ashvi-patel-170556245",
+        pos:'Student Section Lead',
+        picture: require("~/assets/Team/ashvi.jpg"),
+        rotation: 75,
+      },
+      {
+        name: "Preet Shah",
+        url: "https://www.linkedin.com/in/preet-shah-25b3461b9",
+        pos:'Management Lead',
+        picture: require("~/assets/Team/preet.jpg"),
+        rotation: 150,
+      },
       
         {
           name: "PRINCE PATEL",
@@ -124,13 +133,6 @@ export default {
           picture: require("~/assets/Team/prince.jpeg"),
           rotation: 65,
         },
-        {
-        name: "Mihir Prajapati",
-        url: "https://www.linkedin.com/in/mihir-prajapati-692142246",
-        pos:'Social Media Manager',
-        picture: require("~/assets/Team/mhir.jpg"),
-        rotation: 120,
-      },
       ],
     };
   },
