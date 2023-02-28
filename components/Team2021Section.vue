@@ -84,13 +84,15 @@ export default {
         rotation: 150,
       },
         
-        {
-          name: "Hiren Lalani",
-          url: "https://www.linkedin.com/in/hiren-lalani-8a6ba41b9/",
-          pos:'Tech Lead',
-          picture: require("~/assets/Team/hiren.jpg"),
-          rotation: 75,
-        },
+// sign off form code hive on 27 feb last committ 
+
+        // {
+        //   name: "Hiren Lalani",
+        //   url: "https://www.linkedin.com/in/hiren-lalani-8a6ba41b9/",
+        //   pos:'Tech Lead',
+        //   picture: require("~/assets/Team/hiren.jpg"),
+        //   rotation: 75,
+        // },
       //   {
       //   name: "Ravi Singh Patel",
       //   url: "https://www.linkedin.com/in/ravi-patel2303/",
