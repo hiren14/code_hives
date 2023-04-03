@@ -39,6 +39,8 @@
             // dec  
             // social 
 
+            // Event 
+
               name: "Garima Raj",
               url: "https://www.linkedin.com/in/garima-raj-b78292253",
               pos: "Assistant Co-ordinator",
@@ -87,6 +89,14 @@
             picture: require("~/assets/Team/Team2k22/Pari.jpg"),
             rotation: 150,
           },
+          {  // add 23/03/23
+          name: "Pathan Tabassum",
+          url: "https://www.linkedin.com/in/tabassum-pathan-17b82726b",
+          pos:'Event Management Member',
+          picture: require("~/assets/Team/Team2k22/Tabassum.jpg"),
+          rotation: 120,
+          },
+
           // tech 
           {
             name: "Gorani Ravi",
@@ -101,50 +111,59 @@
           pos:'Tech Member',
           picture: require("~/assets/Team/Team2k22/Jaimin.jpg"),
           rotation: 95,
-        },
-        {
+          },
+          {
           name: "PRAJAPATI YASH",
           url: "https://www.linkedin.com/in/yash-prajapati-998043237",
           pos:'Tech Member',
           picture: require("~/assets/Team/Team2k22/Yash.jpg"),
           rotation: 120,
-        },
-        {
+          },
+          {
           name: "KUBER JAYDEEP",
           url: "https://www.linkedin.com/in/jay-kuber-7291a7252",
           pos:'Tech Member',
           picture: require("~/assets/Team/Team2k22/Jaydeep.jpg"),
           rotation: 120,
-        },
-        {
+          },
+          {
           name: "Dev Golwala",
           url: "https://www.linkedin.com/in/dev-golwala-bab4ab243",
           pos:'Tech Member',
           picture: require("~/assets/Team/Team2k22/Dev.jpg"),
           rotation: 120,
-        },
-        {
+          },
+          {
           name: "Yashvi Viradiya",
           url: "https://www.linkedin.com/in/yashvi-viradiya-53bb29254",
           pos:'Tech Member',
           picture: require("~/assets/Team/Team2k22/Yashvi.jpg"),
           rotation: 120,
-        },
-       // media 
-        {
+          },
+                               // add 23/03/23
+          {
+          name: "Dhruvi Vadhaiya ",
+          url: "https://www.linkedin.com/in/dhruvi-vadhaiya-5164961a4",
+          pos:'Tech Member',
+          picture: require("~/assets/Team/Team2k22/dhruvi.jpg"),
+          rotation: 120,
+          },
+        
+          // media 
+          {
           name: "Jansari Srushti",
           url: "https://www.linkedin.com/in/srushti-jansari-79019b256/",
           pos:'Media Production Representative',
           picture: require("~/assets/Team/Team2k22/srushti.jpg"),
           rotation: 75,
-        },
-        {
+          },
+          {
           name: "Niki Vaghela",
-        //   url: "https://www.linkedin.com/in/preet-shah-25b3461b9",  
+          //   url: "https://www.linkedin.com/in/preet-shah-25b3461b9",  
           pos:'Media Production Member',
           picture: require("~/assets/Team/Team2k22/Niki.jpg"),
           rotation: 150,
-        },
+          },
         
           {
             name: "Patel Disha",
