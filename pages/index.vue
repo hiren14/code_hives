@@ -100,7 +100,11 @@ export default {
     FAQSection,
     ScrollTopArrow,
     FooterSection,
+<<<<<<< HEAD
     UpComming,
+=======
+     UpComming,
+>>>>>>> 2e8fed2ccf59f67c5a70ebe566d909ee53fc2d96
     EventsSection
 },
   mixins: [aosMixin],
