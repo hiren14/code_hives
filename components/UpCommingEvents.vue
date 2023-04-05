@@ -17,7 +17,7 @@
             <img :src="event.image" alt="Dive Into Docker poster" />
             </a>
             <div class="texts">
-              <h4 class="eventName" v-html="event.name">{{event.name}}</h4>
+              <h4 class="eventName" >{{event.name}}</h4> <!--v-html="event.name"-->
               <p class="event">
                 Date: {{ event.date }} <br />
                 Time: {{ event.time }} <br />
@@ -53,14 +53,14 @@ export default {
   data() {
     return {
       events: [
-        {
-          name: "Dive Into Docker",
+        {     //change at 03/04 
+          name: "Essentials to Data Science",
           details:
-            "We're a group of passionate developers who are here to help you grow your programming skills.<br /><br />Join us for a workshop Glance At Web Designing about HTML and CSS by CodeHives Club.<br />This workshop is on Friday, Sept 30th from 10:30am - 2:00 pm (ET) and will cover the fundamentals of CSS and HTML with an emphasis on how to use each to make your websites more functional.<br />Learn how to create effective layouts, design images as backgrounds, add animation to your content and much more!",
-          image: require("~/assets/event/event_4.png"),
-          venue: "Seminar Hall, Civil Dept, GecPatan",
-          date: "28th-29th Nov. 2022",
-          time: "11:30 AM to 4:00 PM",
+            "We're a group of passionate developers who are here to help you grow your programming skills.<br /><br />Join us for a workshop Glance At Web Designing about HTML and CSS by CodeHives Club.<br />This workshop is on Friday, April 7th from 9:00 am - 10:30 am (IST) and will cover the fundamentals of CSS and HTML with an emphasis on how to use each to make your websites more functional.<br />Learn how to create effective layouts, design images as backgrounds, add animation to your content and much more!",
+          image: require("~/assets/event/event_5.png"),
+          venue: "Online on Zoom Platform",
+          date: "7th April 2023 ",
+          time: "9:00 AM to 10:30 AM",
           url: "/registration",
           active: true
         },
