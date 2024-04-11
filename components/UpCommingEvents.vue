@@ -238,8 +238,8 @@ export default {
 }
 .dots {
   color:  #d74f4b;
-   height: 8px;
-   align-item: center;
+  height: 8px;
+  align-item: center;
   border-width: 0 0 8px;
   border-style: solid;
   border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="rgb(215, 79, 75)" cx="1" cy="0.5" r="0.5"/></svg>') 0 0 100% repeat;
